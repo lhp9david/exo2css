@@ -14,11 +14,10 @@ body {
     width: 600px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px  black;
+    box-shadow: 1px 1px 10px black;
     position: relative;
     top: 120px;
     left: 20px;
-    z-index: 3;
 }
 
 img {
@@ -36,17 +35,17 @@ img {
     width: 45%;
     background-image: url(/img/Capture\ d’écran\ 2022-10-20\ 123135.png);
     background-size: cover;
-    box-shadow: 1px 1px 10px  black;
+    box-shadow: 1px 1px 10px black;
     border-radius: 10px;
 }
 
 blockquote {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     float: left;
 }
 
-.citation {
+.quote {
     margin-bottom: 80px;
 }
 
@@ -54,12 +53,13 @@ blockquote {
     margin-top: 0;
 }
 
-.nom {
+.name {
     color: blue;
     margin-bottom: 0;
 }
 
-footer {
+.footer {
+   
     height: 10%;
     width: auto;
     background-color: white;
