@@ -1,11 +1,67 @@
-body{
+body {
     background-color: black;
-    
 }
 
-.container{
-    width: 1000px;
-    height: 600px;
-    margin: auto;
-    background-color: gray;
+.container {
+    width: 85vw;
+    height: 70vh;
+    margin: 4rem auto;
+    background-image: radial-gradient(circle at 50% -20.71%, #cbe7e1 0, #cae7e3 6.25%, #c9e7e6 12.5%, #c9e7e8 18.75%, #c9e7eb 25%, #c9e7ed 31.25%, #cae6ef 37.5%, #cbe6f1 43.75%, #cde5f2 50%, #cfe4f3 56.25%, #d1e4f4 62.5%, #d4e3f5 68.75%, #d7e2f5 75%, #dae1f5 81.25%, #dde0f4 87.5%, #e0e0f4 93.75%, #e3dff2 100%);
+}
+
+.presentation {
+    height: 240px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px  black;
+    position: relative;
+    top: 120px;
+    left: 20px;
+    z-index: 3;
+}
+
+img {
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+    float: left;
+    -webkit-filter: grayscale(100%);
+}
+
+.code {
+    position: absolute;
+    left: 700px;
+    top: 80px;
+    height: 65%;
+    width: 45%;
+    background-image: url(/img/Capture\ d’écran\ 2022-10-20\ 123135.png);
+    background-size: cover;
+    box-shadow: 1px 1px 10px  black;
+    border-radius: 10px;
+}
+
+blockquote {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    float: left;
+}
+
+.citation {
+    margin-bottom: 80px;
+}
+
+.job {
+    margin-top: 0;
+}
+
+.nom {
+    color: blue;
+    margin-bottom: 0;
+}
+
+footer {
+    height: 10%;
+    width: auto;
+    background-color: white;
+    margin-top: 210px;
 }
